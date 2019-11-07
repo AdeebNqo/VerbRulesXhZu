@@ -1,0 +1,19 @@
+E -> 'se'
+P -> 'sa'
+PC_1 -> 'ya'
+PC -> PC_1 |
+NPC_2 -> 'be'
+NPC_0 -> NPC_2 |
+NPC_1 -> 'ba' | NPC_2
+NPC -> NPC_1 |
+PMF -> 'si' | 's' |
+PR -> 'a'
+IM -> 'za'
+Space -> ' '
+A_p -> SC P
+A_e -> E SC
+A_es -> A_e | SC
+A_ps -> A_p | SC
+A_pe -> A_p | A_e
+A_pes -> A_p | A_e | SC
+A_sa -> NPC_1 Space A_pes |

@@ -1,0 +1,8 @@
+S_c -> 'is'
+S_n -> 'ek'
+S_i -> 'isis'
+S_p -> 'il'
+S_0 -> S_c | S_i
+S_nic -> S_n | S_0 | S_n S_0
+Suffix -> S_nic | S_p |
+S_np -> S_nic | 
